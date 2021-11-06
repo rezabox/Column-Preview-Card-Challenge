@@ -96,3 +96,18 @@ a:hover {
 .learn-more-luxury {
   color: hsl(179, 100%, 13%);
 }
+
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 1fr);
+    height: auto;
+  }
+  .sedans {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
